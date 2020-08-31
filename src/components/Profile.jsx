@@ -19,9 +19,13 @@ const Profile = () => {
        post 1
         </div>
          <div>
+<<<<<<< HEAD
        post 222222222222222
         post 222222222222222
 
+=======
+       post 2 2
+>>>>>>> a11f5cb19df085b737ebbba1c0f855fcab87d138
         </div>
      </div>
     </div>
