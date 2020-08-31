@@ -20,6 +20,8 @@ const Profile = () => {
         </div>
          <div>
        post 222222222222222
+        post 222222222222222
+
         </div>
      </div>
     </div>
