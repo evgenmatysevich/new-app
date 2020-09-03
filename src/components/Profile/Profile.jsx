@@ -5,7 +5,7 @@ import MyPosts from './MyPosts/MyPosts';
 const Profile = () => {
   return <div className='content'>
     <div>
-      <img src='https://lh3.googleusercontent.com/proxy/3mCxDY_RG716xzRG74ggnyVU3MoXUM3ooQszBy8yysEBU9jIZwPdgIRRF7NjO7AvCWP_F23rGHv9ha87Qe3hEG7NiFfvbzzDZlVyH4Oo6eX1c8PdsHKkDtOI7WA3Ys0tJdgSQFaAO12wuf1_vzszWFcW5iHZWC2vu2DkWfeS6w'/>
+      <img src='http://img0.reactor.cc/pics/post/Trevor-Henderson-Siren-Head-%D0%9C%D1%80%D0%B0%D1%87%D0%BD%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-art-5443610.jpeg'/>
     </div>
     <div>
       ava + description
