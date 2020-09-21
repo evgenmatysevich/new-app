@@ -1,8 +1,8 @@
 .nav {
-grid-area: n;
-background-color: rgb(15, 58, 235);
-padding: 10px;
+  grid-area: n;
+  background-color: rgb(87, 100, 155);
+  padding: 10px;
 }
- .item {
-   color: white;
- }
+.item {
+  color: white;
+}

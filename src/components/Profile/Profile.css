@@ -1,9 +1,8 @@
 .profile img {
-
   height: 1000px;
 }
 .content {
-grid-area: c;
-background-color: rgb(197, 221, 226);
-padding: 10px;
+  grid-area: c;
+  background-color: rgb(86, 157, 172);
+  padding: 10px;
 }
