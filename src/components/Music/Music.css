@@ -3,3 +3,7 @@
   background-color: rgb(23, 195, 230);
   padding: 10px;
 }
+.music img {
+  height: 300px;
+  width: 300px;
+}
