@@ -1,5 +1,18 @@
 .dialogs {
-  grid-area: c;
-  background-color: rgb(23, 195, 230);
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: aqua;
+}
+.dialogs-item a {
   padding: 10px;
+  text-decoration: none;
+}
+.dialogs-item .active {
+  color: red;
+}
+.messages {
+  font-family: initial;
+}
+.message {
+  padding: 1px;
 }

@@ -1,5 +1,6 @@
-.profile img {
-  height: 1000px;
+.content img {
+  height: 300px;
+  width: 600px;
 }
 .content {
   grid-area: c;

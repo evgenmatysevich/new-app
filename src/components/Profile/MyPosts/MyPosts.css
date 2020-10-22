@@ -1,3 +1,11 @@
-.button {
-  border-top:30px;
+.myposts {
+  color: red;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 10fr 3fr;
+  width: 300px;
+}
+.postBlok {
+  padding: 10px;
+  background-color: khaki;
 }
