@@ -17,7 +17,7 @@ class Seting extends React.Component {
       <div className="seting">
         <form>
           <input type="text" name="city" placeholder="Город" />
-          <button >Получить погоду</button>
+          <button >Получить погоду.....</button>
         </form>
       </div>
     );
