@@ -12,13 +12,13 @@ const Navbar = () => {
         <NavLink to="/dialogs">Messages</NavLink>
       </div>
       <div className="item">
-        <NavLink to="/news">News</NavLink>
+        <NavLink to="/pokemon">Pokemon</NavLink>
       </div>
       <div className="item">
         <NavLink to="/music">Music</NavLink>
       </div>
       <div className="item">
-        <NavLink to="/seting">Seting</NavLink>
+        <NavLink to="/weather_app">Weather</NavLink>
       </div>
     </nav>
   );

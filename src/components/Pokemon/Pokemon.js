@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import "./News.css";
+import "./Pokemon.css";
 
 function Pokemon() {
   const [pokedex, setPokedex] = useState([]);
@@ -44,21 +44,16 @@ function Pokemon() {
   };
 
   return (
-    <div className="app-wrapper">
+    <div className="app-wrapper2">
       <header>
-        <h1 className="title">React Hooks</h1>
-        <h3 className="subtitle">With Pokémon</h3>
+        <h3 className="subtitle">React With Pokémon</h3>
       </header>
-
       <section className="wild-pokemon">
         <h2>Wild Encounter</h2>
         <img
           src={
             "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" +
-            wildPokemon.id +
-            ".png"
-          }
-          className="sprite"
+            wildPokemon.id + ".png" }className="sprite"
         />
         <h3>{wildPokemon.name}</h3>
         <button className="catch-btn" onClick={() => catchPokemon(wildPokemon)}>

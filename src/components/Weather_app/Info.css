@@ -1,0 +1,12 @@
+.info {
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+.color_info_text {
+  color: black;
+  font-size: 30px;
+  font-family: fantasy;
+}

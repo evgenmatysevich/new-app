@@ -5,9 +5,13 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import { BrowserRouter, Route } from "react-router-dom";
-import News from "./components/News/News";
+import Pokemon from "./components/Pokemon/Pokemon";
 import Music from "./components/Music/Music";
-import Seting from "./components/Seting/Seting";
+import Weather_app from "./components/Weather_app/Weather_app";
+
+
+
+
 
 const App = (props) => {
 
@@ -19,12 +23,15 @@ const App = (props) => {
         <Navbar />
         <Route exact path="/dialogs" component={Dialogs} />
         <Route path="/profile" render={() => <Profile posts={props.posts} />}/>
-        <Route path="/news" component={News} />
+        <Route path="/pokemon" component={Pokemon} />
         <Route path="/music" component={Music} />
-        <Route path="/seting" component={Seting} />
+        <Route path="/weather_app" component={Weather_app} />
       </div>
     </BrowserRouter>
+   
   );
 };
+
+
 
 export default App;
